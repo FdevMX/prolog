@@ -22,10 +22,10 @@ Este programa permite realizar consultas sobre relaciones familiares. Aquí algu
 ?- tio(Tio, 'Sergio').
 ?- tia(Tia, 'Estela').
 
-% Identificar a los primos de Alfredo:
+% Identificar a los primos de Alfredo
 ?- primos('Alfredo', Primo).
 
-% Buscar los abuelos de una persona:
+% Buscar los abuelos de una persona
 ?- abuelo(Abuelo, 'Sergio').
 ?- abuela(Abuela, 'Estela').
 
